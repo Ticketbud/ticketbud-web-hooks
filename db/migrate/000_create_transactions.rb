@@ -3,7 +3,7 @@ class CreateTransactions < ActiveRecord::Migration
     create_table "transactions" do |t|
       t.string :first_name, :last_name, :email
       t.text :raw
-      t.timestamps, null: false
+      t.timestamps
     end
   end
 
